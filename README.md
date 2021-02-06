@@ -2,7 +2,9 @@
 ***
 This mini-game/project was 100% made using **Python**.
 
-The point of the game is to guess letters and find 
+The point of the game is to guess letters and find <br>
 the hidden word without losing all your lifes.
+
 **Have fun, commit and make issues.**
+
 *~jovan*
