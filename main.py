@@ -21,7 +21,7 @@ def play(word):
     print('\n')
 
     while not guessed and tries > 0:
-        guess = input("Guess a letter from the secret word: ").upper()
+        guess = raw_input("Guess a letter from the secret word: ").upper()
 
         if len(guess) == 1 and guess.isalpha():
             if guess in guessedLetters:
@@ -59,7 +59,7 @@ def play(word):
         else:
             os.system('cls')
             print("Not valid input, Try again!")
-        
+
         print(display(tries))
         print(wordCompleted)
         print('\n')
@@ -151,4 +151,4 @@ play(word)
 while input("Play again? (Y/N) ").upper() == "Y":
     os.system('cls')
     word = getWord()
-    play(word)
+    play(word) 
